@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Draft Blank corp</title>
+        <meta name="description" content="Dofus Draft vous permet de simuler simplement des drafts PVP pour les tournois Dofus Officiel">
+        <link rel="icon" href="eca.png">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="titre">
+                <h1>Dofus Draft</h1>
+            </div>
+        </header>
+        <div id="preloadedImages" hidden="true">
+          <img src="osa_carte.jpg" alt="">
+          <img src="zob_carte.jpg" alt="">
+          <img src="eca_carte.jpg" alt="">
+          <img src="feca_carte.jpg" alt="">
+          <img src="eni_carte.jpg" alt="">
+          <img src="enu_carte.jpg" alt="">
+          <img src="cra_carte.jpg" alt="">
+          <img src="xel_carte.jpg" alt="">
+          <img src="sadi_carte.jpg" alt="">
+          <img src="sacri_carte.jpg" alt="">
+          <img src="iop_carte.jpg" alt="">
+          <img src="sram_carte.jpg" alt="">
+          <img src="panda_carte.jpg" alt="">
+          <img src="roub_carte.jpg" alt="">
+          <img src="steam_carte.jpg" alt="">
+          <img src="osa_ban.jpg" alt="">
+          <img src="zob_ban.jpg" alt="">
+          <img src="eca_ban.jpg" alt="">
+          <img src="feca_ban.jpg" alt="">
+          <img src="eni_ban.jpg" alt="">
+          <img src="enu_ban.jpg" alt="">
+          <img src="cra_ban.jpg" alt="">
+          <img src="xel_ban.jpg" alt="">
+          <img src="sadi_ban.jpg" alt="">
+          <img src="sacri_ban.jpg" alt="">
+          <img src="iop_ban.jpg" alt="">
+          <img src="sram_ban.jpg" alt="">
+          <img src="panda_ban.jpg" alt="">
+          <img src="roub_ban.jpg" alt="">
+          <img src="steam_ban.jpg" alt="">
+
+        </div>
+        <section id="main">
+            <div id="classes">
+                <div class="entier">
+                    <div class="fonction-name">
+                        <h3> </h3>
+                    </div>
+                    <div id="">
+                        <div id="osa" onclick="myclick(this);">
+                            <img src="osa.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="eni" onclick="myclick(this);">
+                            <img src="eni.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="steam" onclick="myclick(this);">
+                            <img src="steam.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="xel" onclick="myclick(this);">
+                            <img src="xel.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="sacri" onclick="myclick(this);">
+                            <img src="sacri.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                    </div>
+                </div>
+                <div class="entier">
+                    <div class="fonction-name">
+                        <h3> </h3>
+                    </div>
+                    <div id="">
+                        <div id="iop" onclick="myclick(this);">
+                            <img src="iop.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="eca" onclick="myclick(this);">
+                            <img src="eca.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="sram" onclick="myclick(this);">
+                            <img src="sram.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="cra" onclick="myclick(this);">
+                            <img src="cra.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="roub" onclick="myclick(this);">
+                            <img src="roub.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                    </div>
+                </div>
+                <div class="entier">
+                    <div class="fonction-name">
+                        <h3> </h3>
+                    </div>
+                    <div id="">
+                        <div id="enu" onclick="myclick(this);">
+                            <img src="enu.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="feca" onclick="myclick(this);">
+                            <img src="feca.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="zob" onclick="myclick(this);">
+                            <img src="zob.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="panda" onclick="myclick(this);">
+                            <img src="panda.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                        <div id="sadi" onclick="myclick(this);">
+                            <img src="sadi.png">
+                            <img class="pick-img" src="pick.png" >
+                            <img class="ban-img" src="ban.png" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="nom_equipe">
+              <div>
+                <h3>Equipe A</h3>
+              </div>
+              <div class="separator">
+
+              </div>
+              <div>
+                <h3>Equipe B</h3>
+              </div>
+            </div>
+            <div id="equipes">
+                <div id="equipe1">
+                    <div class="pick">
+                          <h3>Picks</h3>
+                          <div class="pick_section">
+                              <img src="cache.png" alt="" id="img_pick0">
+                              <img src="cache.png" alt="" id="img_pick3">
+                              <img src="cache.png" alt="" id="img_pick4">
+                          </div>
+                    </div>
+                    <div class="ban">
+                          <h3>Bans</h3>
+                          <div class="ban_section">
+                            <img src="basic_ban.png" alt="" id="img_ban0">
+                            <img src="basic_ban.png" alt="" id="img_ban2">
+                            <img src="basic_ban.png" alt="" id="img_ban4">
+                          </div>
+                    </div>
+                </div>
+                <div id="fleches">
+                    <img src="red-fleche-G.png">
+                    <img src="red-fleche-D.png">
+                    <img src="green-fleche-G.png">
+                    <img src="green-fleche-D.png">
+                    <img src="red-fleche-G.png">
+                    <img src="red-fleche-D.png">
+                    <img src="red-fleche-G.png">
+                    <img src="green-fleche-D.png">
+                    <img src="green-fleche-G.png">
+                    <img src="red-fleche-D.png">
+                    <img src="green-fleche-G.png">
+                    <img src="green-fleche-D.png">
+                </div>
+                <div id="equipe2">
+                  <div class="ban">
+                        <h3>Bans</h3>
+                        <div class="ban_section">
+                          <img src="basic_ban.png" alt="" id="img_ban1">
+                          <img src="basic_ban.png" alt="" id="img_ban3">
+                          <img src="basic_ban.png" alt="" id="img_ban5">
+                        </div>
+                  </div>
+                  <div class="pick">
+                        <h3>Picks</h3>
+                        <div class="pick_section">
+                            <img src="cache.png" alt="" id="img_pick1">
+                            <img src="cache.png" alt="" id="img_pick2">
+                            <img src="cache.png" alt="" id="img_pick5">
+                        </div>
+                  </div>
+                </div>
+              </div>
+            <div id="btn-div">
+                <div id="back-button">
+                     <button id="back" class="btn btn-submit btn-success" onclick="back();" disabled="true">
+                       <span>Back</span>
+                    </button>
+                </div>
+                <div id="reset-button">
+                     <button id="reset" class="btn btn-success" onclick="reset();" disabled="true">
+                       <span>Reset</span>
+                    </button>
+                </div>
+            </div>
+            <div class="version">
+              <span>1.2.2</span>
+            </div>
+        </section>
+        <div id="spinner">
+          <img src="res/spinner.gif" alt="">
+        </div>
+    </body>
+    <script type="module">
+
+        // Import the functions you need from the SDKs you need
+      
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js";
+      
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.11.0/firebase-analytics.js";
+      
+        // TODO: Add SDKs for Firebase products that you want to use
+      
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+      
+        // Your web app's Firebase configuration
+      
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      
+        const firebaseConfig = {
+      
+          apiKey: "AIzaSyBNXiJF6tTu9Hx3LYRGOlLMU2ckZFpTFpo",
+      
+          authDomain: "draft-blank-corp.firebaseapp.com",
+      
+          projectId: "draft-blank-corp",
+      
+          storageBucket: "draft-blank-corp.appspot.com",
+      
+          messagingSenderId: "1022770371740",
+      
+          appId: "1:1022770371740:web:2539f28b66389524f5e159",
+      
+          measurementId: "G-48H3N97ZT5"
+      
+        };
+      
+      
+        // Initialize Firebase
+      
+        const app = initializeApp(firebaseConfig);
+      
+        const analytics = getAnalytics(app);
+      
+      </script>
+</html>
